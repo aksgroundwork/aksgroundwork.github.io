@@ -27,7 +27,7 @@ feature_row:
     btn_class: "btn--inverse"
     excerpt: >
       <b>Whilst groundwork is my specialism</b>,     
-      I would be happy to discuss any jobs with you.
+      I would be happy to discuss many types of building jobs with you.
 
   - image_path: "/assets/images/home-right.jpg"
     alt: "More of my work"
