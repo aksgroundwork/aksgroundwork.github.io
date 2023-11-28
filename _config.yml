@@ -1,0 +1,221 @@
+# Welcome to Jekyll!
+# 238619507
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+masthead_title: AKS Groundwork Limited
+title: "AKS Groundwork Limited"
+#logo: "/assets/images/sitemast-logo.png"
+email: aksgroundworklimited@gmail.com
+name: "Alban"
+description: >- # this means to ignore newlines until "baseurl:"
+  Builder and groundwork specialist
+url : "https://www.aksgroundwork.com"
+#twitter_username: username
+github : [metadata]
+github_username: aksgroundwork
+minimal_mistakes_skin: dark
+search: true
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: Europe/London
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+  # mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+
+author:
+  name: "Alban"
+  avatar: "/assets/images/logo.png"
+  bio: "Groundwork specialist"
+  links:
+    - label: "Call"
+      icon: "fas fa-fw fa-phone"
+      url: "tel:+447478081969"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:aksgroundworklimited@gmail.com"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/aks.groundwork"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/profile.php?id=61552840773330"
+footer:
+  links:
+    - label: "Call"
+      icon: "fas fa-fw fa-phone"
+      url: "tel:+447478081969"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:aksgroundworklimited@gmail.com"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/aks.groundwork"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/profile.php?id=61552840773330"
+feed:
+  disable: true
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sitemap: false
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      sitemap: true
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Reading Files
+include: ["_pages"]
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - eventmachine.bat
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+  - /IFDROPDOWNNAV
+  - /blogexamples
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# OCTOPRESS
+# Default extension for new posts and pages
+post_ext: markdown
+page_ext: html
+
+# Default templates for posts and pages
+# Found in _templates/
+post_layout: post
+page_layout: single
+
+# Format titles with titlecase?
+titlecase: true
+
+google:
+  search_engine_id       : xxxxxxxxxxxxx
+  instant_search         : false # false (default), true
+
+# SEO Related
+google_site_verification : xxxxxxxxxxxxx
+bing_site_verification   : xxxxxxxxxxxxx
+yandex_site_verification :
+naver_site_verification  :
+
+# Social Sharing
+#twitter:
+#  username               : 
+facebook:
+  username               : k925grayshott
+  app_id                 : 100648582798893
+  publisher              :
+og_image                 : "/assets/images/logo.png"
+
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type:  Organization
+  name:  AKS Groundwork Limited
+  links:
+    - "https://www.facebook.com/profile.php?id=61552840773330"
+    - "https://www.instagram.com/aks.groundwork/ "
+
+
+# Analytics
+analytics:
+  provider               : "google-analytics" # false (default), "google", "google-universal", "google-gtag", "custom"
+  google-analytics:
+    tracking_id          : G-TKLBRPTN33

@@ -1,0 +1,9 @@
+main:
+ - title: "What I can do"
+   url: /whaticando.html
+ - title: "My work"
+   url: /posts/
+#  - title: "Categories"
+#    url: /categories/
+#  - title: "Tags"
+#    url: /tags/
