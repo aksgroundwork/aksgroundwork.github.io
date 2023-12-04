@@ -189,18 +189,18 @@ google:
   instant_search         : false # false (default), true
 
 # SEO Related
-google_site_verification : 
-bing_site_verification   : xxxxxxxxxxxxx
+google_site_verification :
+bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
 #twitter:
 #  username               : 
-facebook:
-  username               : k925grayshott
-  app_id                 : 100648582798893
-  publisher              :
+#facebook:
+#  username               : 
+#  app_id                 : 
+#  publisher              :
 og_image                 : "/assets/images/logo.png"
 
 # For specifying social profiles
