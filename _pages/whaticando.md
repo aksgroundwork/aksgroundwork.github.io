@@ -1,6 +1,10 @@
 ---
 title: "What I can do"
 last_modified_at: 2023-11-28
+sitemap:
+  lastmod: 2023-11-28
+  changefreq: yearly
+  priority: 1
 permalink: /whaticando
 header:
   overlay_filter: "0.5"

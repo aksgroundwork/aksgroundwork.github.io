@@ -1,6 +1,10 @@
 ---
 layout: splash
 last_modified_at: 2023-11-28
+sitemap:
+  lastmod: 2023-11-28
+  changefreq: yearly
+  priority: 1
 title: AKS Groundwork <span style="color:green">Limited</span>
 permalink: /
 excerpt: Groundwork specialist
