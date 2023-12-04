@@ -216,6 +216,6 @@ social:
 
 # Analytics
 analytics:
-  provider: "custom"
+  provider: google-analytics
   google:
     tracking_id: G-TKLBRPTN33
