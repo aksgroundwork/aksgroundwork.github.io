@@ -6,6 +6,7 @@ sitemap:
   changefreq: yearly
   priority: 1
 permalink: /whaticando
+excerpt: Builder and groundwork specialist operating across the south east of the UK
 header:
   overlay_filter: "0.5"
   overlay_image: "/assets/images/logo.png"

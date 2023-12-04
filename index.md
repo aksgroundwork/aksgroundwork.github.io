@@ -7,7 +7,7 @@ sitemap:
   priority: 1
 title: AKS Groundwork <span style="color:green">Limited</span>
 permalink: /
-excerpt: Groundwork specialist
+excerpt: Builder and groundwork specialist operating across the south east of the UK
 header:
   overlay_filter: "0.5"
   overlay_image: "/assets/images/logo.png"
