@@ -1,7 +1,7 @@
 ---
 title: "What I can do"
 last_modified_at: 2023-11-28
-permalink: /whaticando.html
+permalink: /whaticando
 header:
   overlay_filter: "0.5"
   overlay_image: "/assets/images/logo.png"

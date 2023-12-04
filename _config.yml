@@ -216,6 +216,6 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-analytics" # false (default), "google", "google-universal", "google-gtag", "custom"
-  google-analytics:
-    tracking_id          : G-TKLBRPTN33
+  provider: "custom"
+  google:
+    tracking_id: G-TKLBRPTN33
