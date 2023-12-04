@@ -16,8 +16,8 @@
 masthead_title: AKS Groundwork Limited
 title: "AKS Groundwork Limited"
 #logo: "/assets/images/sitemast-logo.png"
-email: aksgroundworklimited@gmail.com
-name: "Alban"
+email: info@aksgroundworks.co.uk
+name: "Alban Shabani"
 description: >- # this means to ignore newlines until "baseurl:"
   Builder and groundwork specialist
 url : "https://www.aksgroundwork.com"
@@ -67,7 +67,7 @@ whitelist:
 
 
 author:
-  name: "Alban"
+  name: "Alban Shabani"
   avatar: "/assets/images/logo.png"
   bio: "Groundwork specialist"
   links:
@@ -76,7 +76,7 @@ author:
       url: "tel:+447478081969"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:aksgroundworklimited@gmail.com"
+      url: "mailto:info@aksgroundworks.co.uk"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/aks.groundwork"
@@ -90,7 +90,7 @@ footer:
       url: "tel:+447478081969"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:aksgroundworklimited@gmail.com"
+      url: "mailto:info@aksgroundworks.co.uk"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/aks.groundwork"
@@ -186,7 +186,7 @@ page_layout: single
 titlecase: true
 
 google:
-  search_engine_id       : xxxxxxxxxxxxx
+  search_engine_id       : b188c0439ce354cd2
   instant_search         : false # false (default), true
 
 # SEO Related

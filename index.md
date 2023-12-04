@@ -9,7 +9,7 @@ header:
   overlay_image: "/assets/images/logo.png"
   actions:
   - label: "<i class='fas fa-envelope'></i> Email"
-    url: "mailto:aksgroundworklimited@gmail.com"
+    url: "mailto:info@aksgroundworks.co.uk"
   - label: "<i class='fas fa-phone'></i> Call"
     url: "tel:+447478081969"
 
